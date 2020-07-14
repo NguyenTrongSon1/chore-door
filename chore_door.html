@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <div class="logo">
+        <img src="img/logo.svg">
+    </div>
+    <div class="than" >
+        <div class="noi-dung">
+            <img src="img/star.svg">instructions<img src="img/star.svg">
+        </div>
+        <div class="text">
+            <p class="text"><b class="b">1</b> Hiding behind one of these doors is the ChoreBot.  </p>
+            <p class="text"><b class="b">2</b> Your mission is to open all of the doors without running into the ChoreBot.</p>
+            <p class="text"><b class="b">3</b> If you manage to avoid the ChoreBot until the very last door,you win1 </p>
+            <p class="text"><b class="b">4</b> see if you can scsore a winning streak</p>
+        </div>
+        <div class="door">
+            <img class="anh-1" onclick="anh1();" src="img/closed_door.svg" alt="logo">
+            <img class="anh-2" onclick="anh2(); " src="img/closed_door.svg" alt="logo">
+            <img class="anh-3" onclick="anh3();" src="img/closed_door.svg" alt="logo">
+            <img id="beach" src="img/beach.svg" alt="logo" hidden>
+            <img id="robot" src="img/robot.svg" alt="logo" hidden>
+            <img id="space" src="img/space.svg" alt="logo" hidden>
+        </div>
+        <div class="good-luck">
+            <p class="text2">Good Luck!</p>
+        </div>
+        <div>
+           <p class="text3">Current streak:</p>
+           <p class="text3">Best streak:</p>
+         </div>
+        <div class="diem">
+            <p class="so">0</p>
+            <p class="so">0 </p>
+        </div>
+    </div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
