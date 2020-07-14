@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: 100%;
+    height: 50px;
+    background-color: #018A8A;
+    text-align: center;
+}
+.than{
+    background-color: #010048;
+    width: 100%;
+    height: 900px;
+}
+.noi-dung{
+    text-align: center;
+    padding-top: 20px;
+    color: #018A8A;
+}
+.text{
+    padding-left: 100px;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+.door{
+    text-align: center;
+    padding-right: 20px;
+}
+.b{
+    font-size: 30px;
+    color: #018A8A;
+}
+.door img{
+    padding-left: 20px;
+}
+.text2{
+    border: 1px solid black;
+    background-color: #d39e00;
+    width: 115px;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+}
+.good-luck{
+    padding-left: 45%;
+    padding-top: 10px;
+}
+.text3{
+    color: white;
+    float: left;
+   padding-left: 350px;
+}
+.diem {
+    padding-left: 45%;
+    padding-top: 20px;
+    display: block;
+    float: left;
+}
+.so{
+    border: 1px solid black;
+    width: 100px;
+    height: 70px;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    background-color: #018A8A;
+}
